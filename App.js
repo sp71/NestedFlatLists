@@ -36,6 +36,7 @@ function App() {
 };
 
 const subList = (props) => {
+  console.log('Vertical')
   return (
     <FlatList
       data={props.item}
