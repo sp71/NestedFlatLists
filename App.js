@@ -26,7 +26,6 @@ function App() {
         renderItem={subList}
         horizontal
         pagingEnabled
-        initialNumToRender={1}
         windowSize={1}
         keyExtractor={(item, index) => {
           return index.toString();
